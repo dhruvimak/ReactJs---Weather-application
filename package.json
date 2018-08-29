@@ -1,10 +1,10 @@
 {
-  "name": "projectmanager2",
+  "name": "weather-app",
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "npm": "5.6.0",
-    "node": "8.9.4"
+	"node": "8.9.4",
+    "npm": "5.6.0"
   },
   "dependencies": {
     "bootstrap": "^4.1.0",
