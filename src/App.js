@@ -26,6 +26,11 @@ class App extends Component {
     const data = await api_call.json();
     if(data.cod==404){
       this.setState({
+        temp: undefined,
+        city: undefined,
+        country: undefined,
+        humidity: undefined,
+        description: undefined,
         error: "city not found"
       })
     }
